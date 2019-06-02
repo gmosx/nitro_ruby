@@ -1,0 +1,84 @@
+extremely interesting:
+
+- http://phplens.com/lens/php-book/optimizing-debugging-php.php
+
+
+
+What is wrong with Nitro?
+===========================
+
+- process based (and processes are expensive):
+    - cannot start many processes
+    - problems with many users
+    - memory consumption (swaping)
+    - problems with long requests (uploads)
+
+- live update / restart takes long
+
+- too complex code
+    - too much metamagic
+
+- ORM systems suck (esp. Og)
+
+- high barrier of entry
+    - difficult for newcomers.
+
+
+What is good with Nitro?
+==========================
+
+- keep html as template extension.
+- info/debug methods
+- skin system -> convert to xsl.
+- part as app idea.
+
+
+Further improvements for Nitro 2 
+================================
+
+- follow functional programming ideas.
+
+- make easy to change implementation language
+    - follow standards:
+        - XSLT
+        - StringTemplate
+        - http
+
+- make fault tolerant
+    - an error in a component should not bring down
+      the entire page.
+
+- use microformats!
+
+Ideas
+=====
+
+- use xml files for configuration.
+  - portable through langs 
+  - editbale online?
+
+  + done!
+
+
+
+- precise error reporting!
+
+- Something like Camping.goes (transparent nitro namespace) ? naah.
+
+
+Todo
+====
+
++ Cache template parsing.
++ template missing, etc errors.
+
+- Make multithreaded.
+- Exception idea from Merb.
+- Redirect.
+- Implement Cookie sessions.
+- Implement HTTP caching.
+- Carefully check for multi-threading issues.
+- use #uris for custom methods (anchor).
+- implement a good pager utility.
+- localization support.
+- static interpolation support.

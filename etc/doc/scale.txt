@@ -1,0 +1,2 @@
+
+- shards number: 12: /2->6, /3->4, /4->3, ie nice upgrade path.

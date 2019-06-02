@@ -1,0 +1,37 @@
+setup:
+
+http://izumi.plan99.net/blog/index.php/2008/08/22/re-strange-http-header/
+
+
+mod_security2:
+
+download mod_security2:
+http://www.modsecurity.org/index.html
+
+ubuntu instructions: 
+http://www.vinno.net/linux/server/how-to-install-mod-security-2
+
+process:
+
+sudo apt-get install apache2-prefork-dev libxml++2.6-dev liblua5.1-0 liblua5.1-0-dev libcurl3-dev
+./configure
+make
+sudo make install
+mkdir /etc/mod_security2
+cp ...rules/*.conf /etc/mod_security2/.
+sudo vi /etc/apache2/mods-available/security.load
+LoadFile /usr/lib/libxml2.so
+LoadFile /usr/lib/liblua5.1.so
+LoadModule security2_module /usr/lib/apache2/modules/mod_security2.so
+sudo nano /etc/apache2/conf.d/security.conf
+<ifmodule mod_security2.c>
+Include /etc/modsecurity/*.conf
+</ifmodule>
+ln -s ../mods-available/security.conf
+ln -s ../mods-available/security.load
+ln -s ../mods-available/unique_id
+
+
+-- 
+
+- create cgi.log, make writable by apache user.

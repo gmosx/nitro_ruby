@@ -1,0 +1,113 @@
+Wed Jul 30 18:25:37 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Converted to new directory structure, src.
+
+Wed Jul 30 17:58:59 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Introduced id models.
+
+Wed Jul 30 17:36:14 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * The example uses the content part.
+
+Wed Jul 30 16:49:54 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Improved traits, working properties, save! saves all properties.
+
+Wed Jul 30 15:41:25 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Introduced stdx (standard library extensions).
+
+Wed Jul 30 15:41:09 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Minor stuff.
+
+Tue Jul 29 18:07:11 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Cleanup, signout.
+
+Tue Jul 29 17:17:52 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Modular nginx configuration file.
+
+Mon Jul 28 17:58:07 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Added rack sessions, request fixes, first cut of openid authentication.
+
+Mon Jul 28 16:54:52 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Print stack trace for internal server errors.
+
+Sun Jul 27 23:15:42 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Worked on the example, db.with.
+
+Sat Jul 26 18:25:07 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Yeah, transparently include javascript code, cleanup.[_^[_]:w
+
+Sat Jul 26 17:21:44 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Consolidated template/style into view, external js.
+
+Sat Jul 26 10:53:45 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Evolved component concept, cleanup.
+
+Fri Jul 25 00:07:44 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Added schema.sql
+
+Thu Jul 24 23:54:16 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Added support for http_method override, db delete, improved example model.
+
+Thu Jul 24 16:54:32 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Improved yui integration in the example, use rich text editor.
+
+Thu Jul 24 15:42:48 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Use id as primary key.
+
+Wed Jul 23 14:46:38 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Improved dispatcher.
+
+Wed Jul 23 13:02:00 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Working redirects, http exceptions, an object gets inserted in the database.
+
+Sun Jul 20 12:56:23 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Initial work on components and fragment inclusion.
+
+Sun Jul 20 11:56:40 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Introduced web exceptions.
+
+Sun Jul 20 11:56:09 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Moved template/style dirs out of app, other tweaks.
+
+Sat Jul 19 15:57:03 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Minor fix.
+
+Sat Jul 19 15:54:54 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Renamed demo to example.
+
+Sat Jul 19 15:52:55 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Implemented first version of deserialization, updated strucutre, improved framework.
+
+Sat Jul 19 11:11:32 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Working nginx config, static files are rendered.
+
+Sat Jul 19 01:34:41 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Some work for nginx support.
+
+Thu Jul 17 23:44:15 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Abstract template, minor cleanup.
+
+Thu Jul 17 23:35:25 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Implemented XSLT filtering, abstract Template class.
+
+Thu Jul 17 18:29:50 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Introduced DB, using DBI, kinda works!
+
+Thu Jul 17 14:23:55 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Use liquid templates, dispatching.
+
+Thu Jul 17 13:24:25 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Better strucure, introduced Application and Resource.
+
+Thu Jul 17 00:17:42 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Further improved directory structure.
+
+Thu Jul 17 00:11:40 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * More files, better dir structure.
+
+Wed Jul 16 23:44:04 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Introduced doc dir and initrial design doc.
+
+Wed Jul 16 23:43:35 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Better organized dirs.
+
+Wed Jul 16 17:53:02 EEST 2008  George Moschovitis <george.moschovitis@gmail.com>
+  * Initial commit, a hello world app using rack.

@@ -1,0 +1,23 @@
+
+- pk method in managed. do not require id column.
+
+- combine multiple updates in one sql command with ;.
+
+
+- add support for sharding.
+
+- combine render / print.
+
+- follow Haskell naming conventions for module hierarchy etc
+
+- const.rb with useful constants ("", "0", etc)
+- test with jruby, ruby 1.9, rubinius.
+- pipeline for web optimization of assets.
+
+DONE:
+
+
+- conf dir -> etc dir?
+- no StaticResource, such resources auto cached in public! (in debug mode check
+  modification date)
+- handle accepts/content types.

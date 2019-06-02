@@ -1,0 +1,6 @@
+/var/log/apps/app1.com
+
+/var/www/app1.com -> /var/apps/app1.com/v1.0.1
+/var/www/app2.com -> /var/apps/app2.com/v1.0.7
+
+/var/apps/app1.com/v1.0.1

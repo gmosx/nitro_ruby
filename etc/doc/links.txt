@@ -1,0 +1,24 @@
+
+Security:
+
+- http://htmlpurifier.org/
+
+DNS:
+
+- http://www.igvita.com/2008/09/22/high-performance-dns-for-the-cloud/
+
+performance:
+
+- http://www.dcmanges.com/blog/rails-performance-tuning-workflow
+
+libraries:
+
+- http://cronedit.rubyforge.org/
+
+nginx:
+
+- http://brainspl.at/articles/2008/07/20/nginx-upload-module
+
+javascript:
+
+- http://www.noupe.com/ajax/37-more-shocking-jquery-plugins.html

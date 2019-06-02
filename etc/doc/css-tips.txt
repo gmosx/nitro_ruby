@@ -1,0 +1,4 @@
+
+- http://alistapart.com/stories/doctype/
+- http://www.betaversion.org/~stefano/linotype/news/169/
+- http://devedge-temp.mozilla.org/viewsource/2001/css-underscores/

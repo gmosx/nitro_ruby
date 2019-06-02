@@ -1,0 +1,10 @@
+
+os metaphor
+web server is shell
+resources are programs
+separate program on each uri
+each program reuses code from the library (platform/framework)
+data
+resides in virtual os image
+
+Application -> (Sub-)Applications -> Programs=Resources -> Data (Templates, DB, etc)
